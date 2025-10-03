@@ -1,3 +1,5 @@
+// sum of first N numbers.
+
 #include<iostream>
 using namespace std;
 int main (){
