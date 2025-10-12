@@ -1,3 +1,5 @@
+// smallest element in array using min function
+
 #include<iostream>
 using namespace std;
 int main (){
