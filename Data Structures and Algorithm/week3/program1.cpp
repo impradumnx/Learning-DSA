@@ -1,3 +1,5 @@
+// finding the location of a number in 1D array using Lenear search 
+
 #include<iostream>
 using namespace std;
 int linearsearch( int arr[], int size, int target){
