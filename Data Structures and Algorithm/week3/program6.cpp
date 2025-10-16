@@ -1,3 +1,5 @@
+// to print all the elements of vector.
+
 #include<iostream>
 #include<vector>
 using namespace std;
