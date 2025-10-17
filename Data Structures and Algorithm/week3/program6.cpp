@@ -1,4 +1,4 @@
-// to print all the elements of vector.
+//to print all the elements of vector.
 
 #include<iostream>
 #include<vector>
