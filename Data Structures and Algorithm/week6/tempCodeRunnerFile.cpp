@@ -1,3 +1,1 @@
- // int *p = &m;
-    // // p = &m;
-    // *p = 18;
+cout << changeN(n);
