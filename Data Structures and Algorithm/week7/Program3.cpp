@@ -18,9 +18,14 @@ int main(){
     for(int i=0; i<size; i++){
         cin >> arr[i];
     }
-    int choice;
-    cout << "1-(for sorting), 2-(for replace), 3-(for rotate)" << endl << "Enter choice : ";
-    cin >> choice;
+    int choice = 0;
+    
+
+    while (choice != 4){
+
+        cout << endl << "1-(for sorting), 2-(for replace), 3-(for rotate), 4-( for stop)" << endl << "Enter choice : ";
+        cin >> choice;
+
     switch (choice)
     {
     case 1:
@@ -46,14 +51,17 @@ int main(){
         cout << "Enter ending Position : "; 
         cin >> end;
         rotate(arr.begin(), arr.begin()+start, arr.end()+end );
+        printArray(arr);
         break;
 
-        
+    case 4: 
+        break;
+
     default:
         cout << "Invalid choice!";
         break;
     }
-
-
-    return 0;
+    }
+   
+return 0;
 }
